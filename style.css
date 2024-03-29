@@ -1,10 +1,17 @@
 /* Resetting margins and paddings when using vw */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+h1, section, nav, article, footer {
+    padding: 0.5em;
+}
 
 footer {
     background-color: #262858;
     color: white;
-    padding: 0.5em;
     position: relative;
     width: 100%;
 }
@@ -24,4 +31,18 @@ footer a:hover {
 footer ul {
     list-style-type: none; /* removes bullets */  
     padding: 0;
+}
+
+/* ##################### */
+/* Media queries */
+/* ##################### */
+
+@media only screen and (min-width: 320px) {
+    footer {
+        width: 100%;
+    }
+
+    h1, section, nav {
+        width: 100%;
+    }
 }
