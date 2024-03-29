@@ -1,3 +1,27 @@
-body {
-    
+/* Resetting margins and paddings when using vw */
+
+
+footer {
+    background-color: #262858;
+    color: white;
+    padding: 0.5em;
+    position: relative;
+    width: 100%;
+}
+
+/* footer anchor tags */
+footer a {
+    color: #CD7F32;
+    text-decoration: none;
+}
+
+/* When hovering over anchor tags */
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* footers unordered list */
+footer ul {
+    list-style-type: none; /* removes bullets */  
+    padding: 0;
 }
