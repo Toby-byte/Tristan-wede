@@ -1,3 +1,5 @@
+@import 'variables.css';
+
 /* Resetting margins and paddings when using vw */
 * {
     margin: 0;
@@ -5,12 +7,20 @@
     box-sizing: border-box;
 }
 
-h1, section, nav, article, footer {
+section, nav, article, footer, header {
     padding: 0.5em;
 }
 
+header {
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+}
+
 footer {
-    background-color: #262858;
+    background-color: var(--main-color);
     color: white;
     position: relative;
     width: 100%;
@@ -18,7 +28,7 @@ footer {
 
 /* footer anchor tags */
 footer a {
-    color: #CD7F32;
+    color: var(--link-color);
     text-decoration: none;
 }
 
