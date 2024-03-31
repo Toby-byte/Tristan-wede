@@ -15,6 +15,11 @@ header {
     text-align: center;
 }
 
+hr { /* this is a divider tag */ 
+    border: 1px solid var(--link-color);
+    margin-top: 0.5rem;
+}
+
 section nav ul {
     list-style-type: none;
 }
