@@ -27,9 +27,26 @@ footer {
 }
 
 /* footer anchor tags */
-footer a {
+footer ul {
     color: var(--link-color);
     text-decoration: none;
+}
+
+footer a {
+    color: var(--body-bg-color);
+    text-decoration: none;
+}
+
+footer div span {
+    padding: 0.5rem;
+}
+
+#white {
+    color: var(--body-bg-color);
+}
+
+#bottem-space {
+    margin-bottom: 0.5rem;
 }
 
 /* When hovering over anchor tags */
@@ -48,8 +65,45 @@ footer ul {
 /* ##################### */
 
 @media only screen and (min-width: 320px) {
+    header {
+        background-color: var(--main-color);
+    }
+
+    header h1 {
+        background-color: var(--main-color);
+        color: var(--h1-color);
+    }
+
+    header h3 {
+        background-color: var(--main-color);
+        color: var(--h1-color);
+    }
+
+    body {
+        background-color: var(--body-bg-color);
+    }
+
+    h1 {
+        background-color: var(--h1-bg-color);
+        color: var(--h1-color);
+        padding: 0.5rem;
+    }
+    
     footer {
         width: 100%;
+        text-align: center;
+    }
+
+    footer ul {
+        margin: 0.5rem;
+    }
+
+    footer p {
+        color: var(--link-color);
+    }
+
+    footer div a img {
+        border-radius: 100px;
     }
 
     h1, section, nav {
