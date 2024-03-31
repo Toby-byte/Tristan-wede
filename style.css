@@ -15,8 +15,30 @@ header {
     text-align: center;
 }
 
-header ul {
+section nav ul {
     list-style-type: none;
+}
+
+section.navigation-promo-area {
+    background-color: var(--h1-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+section.navigation-promo-area div {
+    background-color: var(--button-color);
+    color: var(--body-bg-color);
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+section.navigation-promo-area div.book-bg {
+    padding: 5px;
+    background-color: var(--body-bg-color);
 }
 
 footer {
@@ -79,6 +101,22 @@ footer ul {
         color: var(--h1-color);
     }
 
+    nav.navigation-bar {
+        text-align: center;
+    }
+
+    nav ul li {
+        background-color: var(--h1-bg-color);
+        padding: 0.5rem;
+        margin: 1px 1px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: var(--body-bg-color);
+    }
+
+
     body {
         background-color: var(--body-bg-color);
     }
@@ -87,6 +125,18 @@ footer ul {
         background-color: var(--h1-bg-color);
         color: var(--h1-color);
         padding: 0.5rem;
+    }
+
+    section blockquote {
+        background-color: var(--h1-bg-color);
+        color: var(--body-bg-color);
+        padding: 1rem;
+        margin: 1rem 1rem;
+        border-radius: 20px;
+    }
+
+    #tristan_640 {
+        width: 100%;
     }
 
     .contact-section {
