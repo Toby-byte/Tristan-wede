@@ -46,6 +46,14 @@ section.navigation-promo-area div.book-bg {
     background-color: var(--body-bg-color);
 }
 
+section article p.role {
+    color: var(--button-color);
+}
+
+section article p.workshop {
+    color: var(--main-color);
+}
+
 footer {
     background-color: var(--main-color);
     color: white;
@@ -142,6 +150,10 @@ footer ul {
 
     #tristan_640 {
         width: 100%;
+    }
+
+    #books article {
+        text-align: center;
     }
 
     .contact-section {
