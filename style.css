@@ -281,6 +281,10 @@ footer ul {
         padding: 0.5rem;
     }
 
+    section.contact-section img#conference_img {
+        display: none;
+    }
+
     .contact-section section div {
         display: flex;
         flex-direction: row;
@@ -343,5 +347,124 @@ footer ul {
 }
 
 /* Style rules for desktop and larger */
-@media only screen and (min-width: 1025px) {    
+@media only screen and (min-width: 1025px) {
+    nav.navigation-bar {
+        text-align: center;
+        width: 100%;
+    }
+
+    nav.navigation-bar ul {
+        display: flex;
+    }
+
+    nav ul li {
+        background-color: var(--h1-bg-color);
+        padding: 0.5rem;
+        width: 25%;
+    }
+
+    /* removes padding from header elements */
+    header, nav, section.navigation-promo-area {
+        padding: 0;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: var(--body-bg-color);
+    }
+
+    h1 {
+        background-color: var(--h1-bg-color);
+        color: var(--h1-color);
+        padding: 0.5rem;
+    }
+
+    section blockquote {
+        background-color: var(--h1-bg-color);
+        color: var(--body-bg-color);
+        padding: 1rem;
+        margin: 1rem 1rem;
+        border-radius: 20px;
+    }
+
+    section nav ul {
+        list-style-type: none;
+    }
+
+    #books article {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #books article p {
+        padding: 0.5rem;
+    }
+
+    section.contact-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    section.contact-section img {
+        width: auto;
+    }
+
+    .contact-section section div {
+        display: flex;
+        flex-direction: row;
+        margin: 1rem;
+    }
+
+    .contact-section section div div {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-section section img {
+        border-radius: 200px;
+        width: 200px
+    }
+
+    fieldset {
+        padding: 0.5rem;
+        border-radius: 10px;
+    }
+
+    form.form {
+        display: table;
+    }
+
+    div.form-field {
+        display: table-row;
+    }
+
+    label,
+    input {
+    display: table-cell;
+    margin-bottom: 10px;
+    }
+
+    label {
+    padding-right: 10px;
+    }
+
+    footer div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    footer div div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer div div div.social_media {
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer div div div.social_media a img {
+        border-radius: 100px;
+    }
 }
