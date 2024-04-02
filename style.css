@@ -348,6 +348,10 @@ footer ul {
 
 /* Style rules for desktop and larger */
 @media only screen and (min-width: 1025px) {
+    body {
+        padding: 0 10%;
+    }
+    
     nav.navigation-bar {
         text-align: center;
         width: 100%;
@@ -361,6 +365,17 @@ footer ul {
         background-color: var(--h1-bg-color);
         padding: 0.5rem;
         width: 25%;
+    }
+
+    section.navigation-promo-area section {
+        display: flex;  
+    }
+
+    section.navigation-promo-area section section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;  
     }
 
     /* removes padding from header elements */
