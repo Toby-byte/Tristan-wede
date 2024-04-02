@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--body-bg-color);
+}
+
 section, nav, article, footer, header {
     padding: 0.5em;
 }
@@ -122,6 +126,10 @@ footer ul {
 /* Style rules for mobile devices */
 @media only screen and (max-width: 640px) {
 
+    .bio-books-desktop {
+        display: none;
+    }
+    
     nav.navigation-bar {
         text-align: center;
     }
@@ -135,6 +143,18 @@ footer ul {
     nav ul li a {
         text-decoration: none;
         color: var(--body-bg-color);
+    }
+
+    section.navigation-promo-area section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    section.navigation-promo-area section section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
     }
 
     /* removes padding from header elements */
@@ -180,6 +200,10 @@ footer ul {
 
     .contact-section section img {
         border-radius: 200px;
+    }
+
+    section.contact-section img#conference_img {
+        display: none;
     }
 
     fieldset {
@@ -229,6 +253,11 @@ footer ul {
 
 /* Style rules for tablets */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {   
+    
+    .bio-books-desktop {
+        display: none;
+    }
+    
     nav.navigation-bar {
         text-align: center;
         width: 100%;
@@ -242,6 +271,18 @@ footer ul {
         background-color: var(--h1-bg-color);
         padding: 0.5rem;
         width: 25%;
+    }
+
+    section.navigation-promo-area section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    section.navigation-promo-area section section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
     }
 
     /* removes padding from header elements */
@@ -348,8 +389,24 @@ footer ul {
 
 /* Style rules for desktop and larger */
 @media only screen and (min-width: 1025px) {
+    
     body {
         padding: 0 10%;
+    }
+
+    .bio-text {
+        display: flex;
+    }
+
+    .bio-books-desktop {
+        display: flex;
+    }
+
+    .bio-books-desktop div div {
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     nav.navigation-bar {
