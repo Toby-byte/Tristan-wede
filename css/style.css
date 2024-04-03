@@ -126,6 +126,10 @@ footer ul {
 /* Style rules for mobile devices */
 @media only screen and (max-width: 640px) {
 
+    .headshot_container {
+        display: none;
+    }
+    
     .bio-books-desktop {
         display: none;
     }
@@ -254,6 +258,21 @@ footer ul {
 /* Style rules for tablets */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {   
     
+    header section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header section section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .headshot_container img {
+        border-radius: 100px;
+    }
+    
     .bio-books-desktop {
         display: none;
     }
@@ -311,6 +330,11 @@ footer ul {
 
     section nav ul {
         list-style-type: none;
+    }
+
+    section.on_tour_picture {
+        display: flex;
+        justify-content: center;
     }
 
     #books article {
@@ -390,6 +414,21 @@ footer ul {
 /* Style rules for desktop and larger */
 @media only screen and (min-width: 1025px) {
     
+    header section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header section section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .headshot_container img {
+        border-radius: 100px;
+    }
+    
     body {
         padding: 0 10%;
     }
@@ -461,6 +500,11 @@ footer ul {
 
     section nav ul {
         list-style-type: none;
+    }
+
+    section.on_tour_picture {
+        display: flex;
+        justify-content: center;
     }
 
     #books article {
