@@ -6,4 +6,3 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content
 
 Make dividers with html and css:
 https://www.w3schools.com/howto/howto_css_dividers.asp
-
