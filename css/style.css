@@ -507,6 +507,23 @@ footer ul {
         justify-content: center;
     }
 
+    section article.tour {
+        border: 1px solid var(--link-color);
+        border-radius: 10px;
+        width: 48%;
+        margin: 0.5rem;
+    }
+
+    section.tours hr {
+        display: none;
+    }
+
+    .tours {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     #books article {
         display: flex;
         flex-direction: row-reverse;
@@ -514,6 +531,22 @@ footer ul {
 
     #books article p {
         padding: 0.5rem;
+    }
+
+    section#books {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section#books article.book {
+        border: 1px solid var(--link-color);
+        border-radius: 10px;
+        width: 48%;
+        margin: 0.5rem;
+    }
+
+    section#books hr {
+        display: none;
     }
 
     section.contact-section {
